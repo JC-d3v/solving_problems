@@ -1,5 +1,5 @@
-function selection_sort(arreglo2) {
-  arreglo_ord = arreglo2;
+function selection_sort(arregloBase) {
+  arreglo_ord = arregloBase;
   for (i = 0; i < arreglo_ord.length - 1; i++) {
     min_value = arreglo_ord[i];
     min_pos = i;
